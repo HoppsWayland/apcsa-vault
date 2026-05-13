@@ -99,9 +99,9 @@ Open any note with a `run-java` code block, switch to **Reading view** (`Ctrl+E`
 
 ## 📋 Quick Reference
 
-- [[11 - AP Exam Prep/11.2 Java Quick Reference|☕ Java Quick Reference Sheet]]
-- [[11 - AP Exam Prep/11.1 FRQ Overview|📝 FRQ Types & Strategies]]
-- [[11 - AP Exam Prep/11.3 Common Mistakes|⚠️ Common Mistakes]]
+- [[11 - AP Exam Prep/11.3 Java Quick Reference|☕ Java Quick Reference Sheet]]
+- [[11 - AP Exam Prep/11.2 FRQ Overview|📝 FRQ Types & Strategies]]
+- [[11 - AP Exam Prep/11.4 Common Mistakes|⚠️ Common Mistakes]]
 
 ---
 
@@ -112,7 +112,6 @@ Check off topics as you feel confident with them!
 - [ ] Java Fundamentals
 - [ ] Strings
 - [ ] Objects & Classes
-- [ ] Wrapper Classes
 - [ ] Control Flow
 - [ ] Arrays
 - [ ] 2D Arrays

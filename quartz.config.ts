@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,  // no analytics
     locale: "en-US",
-    baseUrl: "localhost:8080",  
+    baseUrl: "https://hoppswayland.github.io/apcsa-vault/",  
     ignorePatterns: [
       "private",
       "templates",
