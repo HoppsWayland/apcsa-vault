@@ -1,11 +1,19 @@
+# Quartz build output
+public/
+.quartz-cache/
+
+# Node
+node_modules/
+
+# Obsidian local settings (don't share these)
+vault/.obsidian/workspace.json
+vault/.obsidian/workspace-mobile.json
+
+# Keep .obsidian/plugins and .obsidian/community-plugins.json
+# so students get the right plugin config when they clone
+
+# macOS
 .DS_Store
-.gitignore
-node_modules
-public
-prof
-tsconfig.tsbuildinfo
-.obsidian
-.quartz-cache
-private/
-.replit
-replit.nix
+
+# Windows
+Thumbs.db

@@ -3,22 +3,27 @@ import * as Plugin from "./quartz/plugins"
 
 /**
  * Quartz 4 Configuration
+ * AP Computer Science A — Course Vault
  *
- * See https://quartz.jzhao.xyz/configuration for more information.
+ * Full docs: https://quartz.jzhao.xyz/configuration
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "AP CSA",
+    pageTitleSuffix: " — AP Computer Science A",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: null,  // no analytics
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "localhost:8080",  
+    ignorePatterns: [
+      "private",
+      "templates",
+      ".obsidian",
+      "_Templates",
+    ],
     defaultDateType: "modified",
+    generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -86,10 +91,7 @@ const config: QuartzConfig = {
       }),
       Plugin.Assets(),
       Plugin.Static(),
-      Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
     ],
   },
 }
